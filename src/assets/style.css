@@ -5,12 +5,51 @@
     align-items: center;
     gap: 10px;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 290px;
     
 }
-.container button {
+.container button { 
     background-color: blue;
     width: 45px;
     height: 45px;
+    color: white;
+}
+/* form */
+body{
+    background-color: rgba(127, 255, 212, 0.438);
+}
+.bigform{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+form {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(96, 111, 123);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+}
+form label:nth-child(1){
+    margin-top: 60px;
+}
+form input{
+    width: 50%;
+    border-radius: 20px;
+}
+form button{
+    width: 20%;
+    border-radius: 20px;
+}
+td {
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(97, 113, 113);
+}
+table {
+    margin-bottom: 450px;
     color: white;
 }
